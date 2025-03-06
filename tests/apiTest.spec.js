@@ -1,7 +1,7 @@
 const { test, expect } = require('@playwright/test');
 
 test('Verify Islamabad temperature and API response', async ({ request }) => {
-    const apiKey = '4d96748bcd1991a8a684529ee453d96a'; // Kindly use your API key from the open weather app, i used mine and it worked perfectly fine!
+    const apiKey = 'API KEY'; // Kindly use your API key from the open weather app, i used mine and it worked perfectly fine!
     const city = 'Islamabad';
     
     
